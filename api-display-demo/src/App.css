@@ -1,0 +1,84 @@
+body{
+  background-color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+#page-body{
+  max-width: 700px;
+  margin: auto;
+  padding-top: 72px;
+}
+.link{
+  color: white;
+}
+button{
+  padding: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #333;
+  border-radius: 7px;
+  cursor: pointer;
+  color: white;
+  border-color: black;
+  margin-bottom: 10px;
+}
+.logoutBtn{
+  float:right;
+  margin: 10px;
+}
+a{
+  text-decoration: none;
+}
+p{
+  text-align: justify;
+}
+input{
+  display: block;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 8px;
+  width: 200px;
+  margin-left: 0;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.title{
+  text-align: left;
+}
+img{
+  width: 100px;
+  height: 60px;
+}
+.coat{
+  width: 70px;
+  height: 100px;
+}
+table, td, th{
+  border: 1px solid black;
+  padding: 10px;
+}
+table{
+  border-collapse: collapse;
+  width: 50%; 
+}
+/* navbar */
+.navBar{
+  background-color: #333;
+    overflow: hidden;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
